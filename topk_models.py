@@ -35,7 +35,7 @@ class TopKLlamaConfig(LlamaConfig):
         tie_word_embeddings=False,
         rope_theta=10000.0,
         rope_scaling=None,
-        # hyper-parameter of MoEfication
+        # hyper-parameter for DynamicK-Tuning
         split_start_layer=0,
         split_every_layer=2,
         topk=2,

@@ -90,8 +90,6 @@ class LoraArguments:
     q_lora: bool = False
 
 
-
-
 def smart_tokenizer_and_embedding_resize(
     special_tokens_dict: Dict,
     tokenizer: transformers.PreTrainedTokenizer,

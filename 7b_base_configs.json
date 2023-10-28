@@ -25,6 +25,6 @@
     "split_every_layer": 2,
     "topk": 16,
     "n_expert": 64,
-    "mode": "EMoE"
+    "mode": "topk"
   }
   
