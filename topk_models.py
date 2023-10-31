@@ -42,7 +42,7 @@ class TopKLlamaConfig(LlamaConfig):
         n_expert=16,
         mode='topk',  # other setting
         select='gate', # or 'up', 'inter'
-        dynamic_mode='static', # or 'softmax', 'l1'
+        dynamic_mode='static', # or 'softmax', 'l1'， ‘ratio’
         threshold=0.9,
         **kwargs,
     ):

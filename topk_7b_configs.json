@@ -19,12 +19,16 @@
     "rope_scaling": null,
     "tie_word_embeddings": false,
     "torch_dtype": "float16",
+    "transformers_version": "4.31.0.dev0",
     "use_cache": true,
     "vocab_size": 32000,
-    "split_start_layer": 16,
-    "split_every_layer": 2,
-    "topk": 16,
+    "split_start_layer": 31,
+    "split_every_layer": 1,
+    "topk": 1376,
     "n_expert": 64,
-    "mode": "topk"
+    "mode": "topk",
+    "select": "gate",
+    "dynamic_mode": "static",
+    "threshold": 0.8
   }
   
